@@ -548,7 +548,7 @@ async function startWebGL()
 
     const camtex = GLUtil.create_camera_texture (gl);
     //const camtex = GLUtil.create_video_texture (gl, "./assets/just_do_it.mp4");
-    const imgtex = GLUtil.create_image_texture2 (gl, "pakutaso_person.jpg");
+    const imgtex = GLUtil.create_image_texture2 (gl, "sample.jpg");
 
     let win_w = canvas.clientWidth;
     let win_h = canvas.clientHeight;
